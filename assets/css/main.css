@@ -712,7 +712,7 @@ h1 {
     display: block;
 }
 
-tbody th {
+.timetable tbody th {
     font-family: 'HEADING';
     font-weight: bold;
     transform: rotate(-90deg);
