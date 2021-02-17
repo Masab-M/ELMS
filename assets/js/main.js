@@ -37,3 +37,11 @@ function readURL(input) {
 $("#imageUpload").change(function() {
   readURL(this);
 });
+$('.timetable td').click(function() {
+var value = $(this).children('div span:nth-child(2)').text();
+var value1 = $(this).children('div span:nth-child(1)').text();
+$("#ccode").text(value1);
+$("#subject").text(value);
+
+
+});

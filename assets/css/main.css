@@ -707,6 +707,16 @@ h1 {
     font-weight: normal;
     transition: all 0.2s ease-in-out;
   }
+  td span {
+    text-align: center;
+    display: block;
+}
+
+tbody th {
+    font-family: 'HEADING';
+    font-weight: bold;
+    transform: rotate(-90deg);
+}
   .avatar-upload .avatar-edit input + label:hover {
     background: #f1f1f1;
     border-color: #d6d6d6;
@@ -776,3 +786,34 @@ h1 {
     border: none;
     padding: 10px 20px;
 }
+.showtimetable .row {
+    border-radius: 20px;
+    background: #fff;
+    padding: 10px 20px;
+}
+
+.showtimetable {
+    padding: 10px 50px;
+}
+
+
+
+.showtimetable h4 {
+    font-size: 27px;
+    font-family: 'HEADING';
+    color: #000;
+    font-weight: 500;
+}
+
+.modulename {margin-right: 70px;display: grid;}
+
+.location {
+    display: grid;
+    margin-right: 70px;
+}
+
+.details {
+    display: flex;
+}
+
+.details span {font-size: 18px;font-family: 'Primary';}
