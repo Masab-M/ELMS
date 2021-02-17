@@ -817,3 +817,69 @@ h1 {
 }
 
 .details span {font-size: 18px;font-family: 'Primary';}
+
+
+#sidebar ul.components li.active:nth-child(1)> a i {
+    background:#fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+#sidebar ul.components li.active:nth-child(2)> a i {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sidebar ul.components li.active:nth-child(3)> a i {
+       background: #fff;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sidebar ul.components li.active:nth-child(4)> a i {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sidebar ul.components li.active:nth-child(5)> a i {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sidebar ul.components li.active:nth-child(6)> a i {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sidebar ul.components li.active:nth-child(7)> a i {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sidebar ul.components li.active:nth-child(8)> a i {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sidebar ul.components li.active:nth-child(9)> a i {
+    background: #fff;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sidebar ul.components li.active:nth-child(10)> a span:first-child> i {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
