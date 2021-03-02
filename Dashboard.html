@@ -89,10 +89,17 @@
                             <img src="https://picsum.photos/200" alt="">
                         </div>
                         <div class="userdetails">
-                            <span>name</span>
+                            <span>name                            <i onclick="myFunction1()" class="dropbtn fas fa-chevron-right"></i>
+
+                            </span>
                             <span>LoremIpsum</span>
+                            <div id="myDropdown1" class="dropdown-content">
+                                <a href="Profile.html">Profile</a>
+                                <a href="Profile.html">Edit Profile</a>
+                                <a href="#">Account Settings</a>
+                                <a href="#">Sign Out</a>
+                              </div>
                         </div>
-                    </div>
                     <!-- <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -134,7 +141,9 @@
 
                 </div>
                 <div class="col-md-6 text-right">
-
+                    <button type="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal2">
+                    Notification
+                    </button>
                 </div>
             </div>
             <div class="row container-fluid">
@@ -267,7 +276,38 @@
                 </div>
 
             </div>
+            <div class="container demo">
 
+
+
+
+
+                <!-- Modal -->
+                <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+                    <div class="modal-dialog" style="max-width: 80%;" role="document">
+                        <div class="modal-content">
+        <div class="sideFormHead">
+        <h3>Notification</h3>
+        </div>
+        <div class="notifications">
+<h5>
+Lorem Ipsum
+</h5>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In mollitia sed nemo placeat autem quis earum dicta sequi qui eveniet. Adipisci explicabo rerum ipsa minus temporibus! Dignissimos adipisci laborum fuga?</p>
+        </div>
+
+            <div class="formbtn">
+                <a href=""><button>Cancel</button></a>
+                <a href=""><button>Mark All As Read</button></a>
+            </div>
+
+
+
+                        </div><!-- modal-content -->
+                    </div><!-- modal-dialog -->
+                </div><!-- modal -->
+
+            </div>
         </div>
     </div>
 

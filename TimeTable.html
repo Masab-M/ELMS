@@ -91,10 +91,17 @@
                             <img src="https://picsum.photos/200" alt="">
                         </div>
                         <div class="userdetails">
-                            <span>name</span>
+                            <span>name                            <i onclick="myFunction1()" class="dropbtn fas fa-chevron-right"></i>
+
+                            </span>
                             <span>LoremIpsum</span>
+                            <div id="myDropdown1" class="dropdown-content">
+                                <a href="Profile.html">Profile</a>
+                                <a href="Profile.html">Edit Profile</a>
+                                <a href="#">Account Settings</a>
+                                <a href="#">Sign Out</a>
+                              </div>
                         </div>
-                    </div>
                     <!-- <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -139,6 +146,15 @@
 
                 </div>
                 <div class="col-md-6 text-right">
+                    <select name="sort" id="sortby">
+                        <option value="sort">Sort By</option>
+                        <option value="AtoZ">A to Z</option>
+                        <option value="ZtoA">Z to A</option>
+
+                      </select>
+                    <!-- <button type="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal2">
+                        Update
+                    </button> -->
                     <button type="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal2">
                         Add New
                     </button>
@@ -187,7 +203,7 @@
                                         <th scope="col">Sat</th>
 
 
-                                    </tr>
+                                    <td id="moredetails"><i class="fas fa-chevron-right"></i></td></tr>
                                 </thead>
                                 <tbody>
                                     <tr>
@@ -224,7 +240,7 @@
                                         </td>
 
 
-                                    </tr>
+                                    <td id="moredetails"><i class="fas fa-chevron-right"></i></td></tr>
                                     <tr>
                                         <th>6/9</th>
                                         <td><span>Mat031
@@ -255,7 +271,7 @@
                                             </span>
                                             <span>MAth</span>
                                         </td>
-                                    </tr>
+                                    <td id="moredetails"><i class="fas fa-chevron-right"></i></td></tr>
                                     <tr>
                                         <th>6/9</th>
                                         <td><span>Mat031
@@ -286,7 +302,7 @@
                                             </span>
                                             <span>MAth</span>
                                         </td>
-                                    </tr>
+                                    <td id="moredetails"><i class="fas fa-chevron-right"></i></td></tr>
                                     <tr>
                                         <th>6/9</th>
                                         <td><span>Mat031
@@ -317,7 +333,7 @@
                                             </span>
                                             <span>MAth</span>
                                         </td>
-                                    </tr>
+                                    <td id="moredetails"><i class="fas fa-chevron-right"></i></td></tr>
                                     <tr>
                                         <th>6/9</th>
                                         <td><span>Mat031
@@ -348,7 +364,7 @@
                                             </span>
                                             <span>MAth</span>
                                         </td>
-                                    </tr>
+                                    <td id="moredetails"><i class="fas fa-chevron-right"></i></td></tr>
                                 </tbody>
                             </table>
                         </div>

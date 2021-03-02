@@ -86,10 +86,17 @@
                             <img src="https://picsum.photos/200" alt="">
                         </div>
                         <div class="userdetails">
-                            <span>name</span>
+                            <span>name                            <i onclick="myFunction1()" class="dropbtn fas fa-chevron-right"></i>
+
+                            </span>
                             <span>LoremIpsum</span>
+                            <div id="myDropdown1" class="dropdown-content">
+                                <a href="Profile.html">Profile</a>
+                                <a href="Profile.html">Edit Profile</a>
+                                <a href="#">Account Settings</a>
+                                <a href="#">Sign Out</a>
+                              </div>
                         </div>
-                    </div>
                     <!-- <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -134,6 +141,15 @@
 
                 </div>
                 <div class="col-md-6 text-right">
+                    <select name="sort" id="sortby">
+                        <option value="sort">Sort By</option>
+                        <option value="AtoZ">A to Z</option>
+                        <option value="ZtoA">Z to A</option>
+
+                      </select>
+                    <!-- <button type="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal2">
+                        Update
+                    </button> -->
                     <button type="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal2">
                         Add New
                     </button>
@@ -155,7 +171,7 @@
                                     <th scope="col">Mail</th>
                                     <th scope="col">Manage</th>
 
-                                </tr>
+
                             </thead>
                             <tbody>
                                 <tr>
@@ -166,11 +182,13 @@
                                     <td>Otto</td>
                                     <td>Mark</td>
                                     <td>Otto</td>
-                                    <td><a href=""><i class="fas fa-eye"></i>View</a><a href=""><i
+                                    <td><button type="button" class="btn btn-sm btn-secondary btn-toggle" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                        <div class="handle"></div>
+                                      </button><a href=""><i
                                                 class="fas fa-sync-alt"></i>Update</a></td>
+                                                <td id="moredetails"><i class="fas fa-chevron-right"></i></td>
 
-                                </tr>
-                                <tr>
+                                    <tr>
                                     <th scope="row">2</th>
                                     <td>Jacob</td>
                                     <td>Thornton</td>
@@ -179,9 +197,11 @@
                                     <td>Mark</td>
                                     <td>Otto</td>
 
-                                    <td><a href=""><i class="fas fa-eye"></i>View</a><a href=""><i
+                                    <td><button type="button" class="btn btn-sm btn-secondary btn-toggle" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                        <div class="handle"></div>
+                                      </button><a href=""><i
                                                 class="fas fa-sync-alt"></i>Update</a></td>
-                                </tr>
+                                                <td id="moredetails"><i class="fas fa-chevron-right"></i></td>
                                 <tr>
                                     <th scope="row">3</th>
                                     <td>Mark</td>
@@ -190,9 +210,11 @@
                                     <td>Otto</td>
                                     <td colspan="2">Larry the Bird</td>
 
-                                    <td><a href=""><i class="fas fa-eye"></i>View</a><a href=""><i
+                                    <td><button type="button" class="btn btn-sm btn-secondary btn-toggle" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                        <div class="handle"></div>
+                                      </button><a href=""><i
                                                 class="fas fa-sync-alt"></i>Update</a></td>
-                                </tr>
+                                                <td id="moredetails"><i class="fas fa-chevron-right"></i></td>
                                 <tr>
                                     <th scope="row">3</th>
                                     <td>Mark</td>
@@ -201,9 +223,12 @@
                                     <td>Otto</td>
                                     <td colspan="2">Larry the Bird</td>
 
-                                    <td><a href=""><i class="fas fa-eye"></i>View</a><a href=""><i
+                                    <td><button type="button" class="btn btn-sm btn-secondary btn-toggle" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                        <div class="handle"></div>
+                                      </button><a href=""><i
                                                 class="fas fa-sync-alt"></i>Update</a></td>
-                                </tr>
+                                                <td id="moredetails"><i class="fas fa-chevron-right"></i></td>
+
                                 <tr>
                                     <th scope="row">3</th>
                                     <td>Mark</td>
@@ -212,15 +237,27 @@
                                     <td>Otto</td>
                                     <td colspan="2">Larry the Bird</td>
 
-                                    <td><a href=""><i class="fas fa-eye"></i>View</a><a href=""><i
+                                    <td><button type="button" class="btn btn-sm btn-secondary btn-toggle" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                        <div class="handle"></div>
+                                      </button><a href=""><i
                                                 class="fas fa-sync-alt"></i>Update</a></td>
-                                </tr>
+<td id="moredetails"><i class="fas fa-chevron-right"></i></td>
+
                             </tbody>
+
                         </table>
+                        <div class="entry">
+                            <div class="entries">
+                                <p>Show <Span>6</Span> Entries  </p>
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <nav aria-label="Page navigation example" class="text-center">
+
                 <ul class="pagination">
                     <li class="page-item">
                         <a class="page-link" href="#" aria-label="Previous">
@@ -238,6 +275,8 @@
                         </a>
                     </li>
                 </ul>
+
+
             </nav>
 
 
